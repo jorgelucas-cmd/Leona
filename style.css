@@ -11,7 +11,7 @@
 body {
 
  background-color: #000;
-    background-image: url("/img/comeia.jpg");
+    background-image: url("./img/comeia.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
