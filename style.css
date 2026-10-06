@@ -8,16 +8,63 @@
 }
 
 
-body {
 
- background-color: #000;
+.fundo {
+
+    background-color: #000;
     background-image: url("./img/comeia.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-bottom: 1px solid #ffcf4a; 
     
+} 
+
+.seta {
+   width: 400px;
+   margin-top: 100px;
+   margin-left: 130px;
 }
+
+.seta:hover {
+  border: 3px solid gold;
+  border-radius: 15px;
+  box-shadow: 0 0 15px gold;
+}
+
+/* body {
+
+ background-color: #000;
+    background-image: url("./img/fundo.azul.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #ffcf4a; 
+    
+} */
+
+/* body {
+
+ background-color: #000;
+    background-image: url("./img/fundo.dourado.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #ffcf4a; 
+    
+} */
+
+/* body {
+
+ background-color: #000;
+    background-image: url("./img/fundo.vermelho.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #ffcf4a; 
+    
+} */
+
 
 
 .header {
@@ -112,9 +159,6 @@ button {
   position: fixed;
 }
 
-.lion:hover{
-  transform: scale(1.1);
-}
 
 .woman {
   width: 30%;
@@ -127,9 +171,6 @@ button {
 }
 
 
-.woman:hover{
-  transform: scale(1.1);
-}
 
 .agency {
   width: 30%;
@@ -137,9 +178,7 @@ button {
   margin-left: 300px;
 }
 
-.agency:hover{
-  transform: scale(1.1);
-}
+
 
 
 @media (max-width: 880px) {
