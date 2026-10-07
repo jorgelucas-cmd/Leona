@@ -11,17 +11,19 @@
 
 .fundo {
 
+    max-width: 90%;
+    height: auto;
     background-color: #000;
     background-image: url("./img/comeia.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-bottom: 1px solid #ffcf4a; 
     
 } 
 
 .seta {
-   width: 400px;
+  position: absolute;
+   width: 300px;
    margin-top: 100px;
    margin-left: 130px;
 }
@@ -65,10 +67,34 @@
     
 } */
 
+.ganhos {
+  position: absolute;
+  width: 18%;
+  top: 140px;
+  left: 42%;
+  border-radius: 10px;
 
+
+}
+.ganhos:hover{
+  border:#ffcf4a solid;
+}
+
+.valores-tabela {
+  position: absolute;
+  width: 40%;
+  top: 140px;
+  border:#51ecf2 solid;
+  border-radius: 30px;
+  
+}
+
+.valores-tabela:hover {
+  border:#ffcf4a solid;
+}
 
 .header {
-  position: fixed; 
+  position: absolute; 
   background-color: #000000; 
   width: 100%;
   height: 90px;
@@ -91,6 +117,7 @@
   color: white;
   text-shadow:
   -1px -1px 0 #f2b71d;
+  margin: 0px 30px;
 
 }
 
@@ -106,13 +133,15 @@
 }
 
 
+
 .header-location {
+  position: absolute;
   color: #f52b86;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
+  left: 350px;
+  z-index: 10; 
 }
 
 .header-location:hover {
@@ -122,12 +151,15 @@
 }
 
 .header-location1 { 
+    position: absolute;
     color: #f52b86;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 40px;
-    margin-left: 300px;
-    margin-right: 40px;
+    
+    margin-right: 10px;
+
+    left: 250px;
 
 }
 
@@ -138,32 +170,90 @@
   transition: 0.3s;
 }
 
+.header-location2 {
+  position: absolute;
+  color: #f52b86;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 40px;
+  left: 340px;
+}
 
-button {
-  cursor: pointer;
-  background-color: #f52b86;
+.header-location2:hover {
+  color: #ffcf4a;
   font-weight: bold;
-  border-radius: 30px;
-  width: 200px;
-  height: 50px;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  color: hsl(0, 0%, 100%);
-  margin-left: 300px;
+  transition: 0.3s;
+}
+
+.header-location3 {
+  position: absolute;
+  color: #f52b86;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 40px;
+  left: 440px;
+}
+
+.header-location3:hover {
+  color: #ffcf4a;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.header-location3:hover {
+  color: #ffcf4a;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.header-location4 {
+  position: absolute;
+  color: #f52b86;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 40px;
+  left: 550px;
+}
+
+.header-location4:hover {
+  color: #ffcf4a;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
 
+button {
+  position:sticky;
+  cursor: pointer;
+  background-color: #f52b86;
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+  color: hsl(0, 0%, 100%);
+  top: 40px;
+  left: 1700px;
+  margin-right: 40px;
+
+}
+
+button:hover {
+  border:#ffcf4a solid;
+}
+
 .lion {
+  position: absolute;
   width: 25%;
   margin-top: 100px;
-  position: fixed;
+  position: relative;
 }
 
 
 .woman {
-  width: 30%;
-  margin-top: 100px;
-  
+  position: absolute;
+  width: 25%;
+  margin-left: auto;
+  right:  40px;
+  bottom: 10px;
   background-image: url('sua-imagem.jpg');
   background-repeat: no-repeat;
   background-size: cover; /* Faz a imagem cobrir o espaço */
@@ -173,47 +263,16 @@ button {
 
 
 .agency {
-  width: 30%;
-  margin-top: 70px;
-  margin-left: 300px;
+  position: absolute;
+  width: 25%;
+  bottom: 10px;
+  left: 100px;
 }
 
 
 
 
 @media (max-width: 880px) {
-  .header {width: 100vw;}
-  .header-location1 {font-size: 15px;
-                    margin-left: 60px;
-                    margin-right: 1px;}
-  .header-location {font-size: 15px;
-                    margin-right: 1px;}
-  .logo-header {width: 0px;}
-  .header-name {font-size: 0px;
-                margin-left: 0px;}
-  .header-name span {font-size: 0px;
-                margin-left: 0px;}
-  .lion {width: 250px; margin-top: -270px;}
-  .agency {width: 150px; margin-left: 0px;}
-  .golden {width: 20vw; height: 40vh; }
-  .woman {width: 250px; margin-top: -10px; position: relative;}
-  button {width: 150px; margin-left: -100px; margin-top: 70px; position: relative; font-size: 12px; height: 30px;}
-}
+  
 
-
-@media (max-width: 500px) {
-  .header {width: 100vw;}
-  .header-location1 {font-size: 13px;
-                    margin-left: 20px;
-                    margin-right: 1px;}
-  .header-location {font-size: 13px;margin-right: 1px;}
-  .logo-header {width: 0px;}
-  .header-name {font-size: 0px;margin-left: 0px;}
-  .header-name span {font-size: 0px;
-                margin-left: 0px;}
-  .lion {width: 250px; margin-top: -220px;}
-  .agency {width: 160px; margin-left: 20px; margin-top: 100px;}
-  .golden {width: 20vw; height: 40vh; }
-  .woman {width: 250px; margin-top: -100px; margin-left: 140px; position: relative;}
-  button {width: 150px; margin-left: -150px; margin-top: 75px; position: relative; font-size: 12px;}
 }
