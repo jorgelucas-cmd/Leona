@@ -328,6 +328,310 @@ button:hover {
 
 
 @media (max-width: 880px) {
+   
+  .seta {
+  position: absolute;
+   width: 300px;
+   margin-top: 100px;
+   margin-left: 130px;
+}
+
+.seta:hover {
+  border: 3px solid gold;
+  border-radius: 15px;
+  box-shadow: 0 0 15px gold;
+}
+
+/* body {
+
+ background-color: #000;
+    background-image: url("./img/fundo.azul.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #ffcf4a; 
+    
+} */
+
+/* body {
+
+ background-color: #000;
+    background-image: url("./img/fundo.dourado.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #ffcf4a; 
+    
+} */
+
+/* body {
+
+ background-color: #000;
+    background-image: url("./img/fundo.vermelho.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #ffcf4a; 
+    
+} */
+
+.suporte {
+  position: absolute;
+  width: 93%;
+  top: 460px;
+  left: 3%;
+  border-radius: 10px;
   
+}
+
+.suporte:hover {
+  border:#ffcf4a solid;
+
+}
+
+.regras {
+  position: absolute;
+  width: 60%;
+
+  top: 120px;
+  left: 2%;
+  border-radius: 10px;
+}
+
+.regras:hover {
+  border:#ffcf4a solid;
+
+}
+
+.gold-quem {
+  position: absolute;
+  width: 95%;
+  top: 140px;
+  left: 2%;
+  border-radius: 10px;
+
+}
+
+.gold-quem:hover {
+  border:#ffcf4a solid;
+
+}
+
+.ganhos {
+  position: absolute;
+  width: 58%;
+  top: 310px;
+  left: 40%;
+  border-radius: 10px;
+
+
+}
+
+.ganhos:hover{
+  border:#ffcf4a solid;
+}
+
+.inforblu {
+  position: absolute;
+  width: 35%;
+  top: 470px;
+  left: 3%;
+  border-radius: 10px;
+}
+
+.inforblu:hover{
+  border:#ffcf4a solid;
+}
+
+.valores-tabela {
+  position: absolute;
+  width: 95%;
+  top: 140px;
+  border:#0537a0 solid;
+  border-radius: 10px;
+  left: 10px;
+  
+}
+
+.valores-tabela:hover {
+  border:#ffcf4a solid;
+}
+
+.header {
+  position: absolute; 
+  background-color: #000000; 
+  width: 100%;
+  height: 90px;
+  display: flex;
+  border-bottom: 1px solid #ffcf4a; 
+}
+
+.logo-header {
+  width: 0px;
+  position: absolute;
+  top: 2px;
+}
+
+.header-name {
+  position: absolute;
+  left: 5px;
+  top: 20px;
+  font-size: 0px;
+  font-weight: bold;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #f2b71d;
+  margin: 0px 30px;
+
+}
+
+.header-name span {
+  color: #ffcf4a;
+  font-weight: bold;
+  font-size: 0px;
+  position: absolute;
+  top: 10px;
+    color: #ffcf4a;
+  text-shadow: 
+    -1px -1px 0 #82807b; 
+}
+
+
+
+.header-location {
+  position: absolute;
+  color: #f52b86;
+  text-decoration: none;
+  font-size: 10px;
+  margin-top: 40px;
+  left: 350px;
+  z-index: 10; 
+}
+
+.header-location:hover {
+  color: #ffcf4a;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.header-location1 { 
+    position: absolute;
+    color: #f52b86;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 40px;
+    
+    margin-right: 10px;
+
+    left: 20px;
+
+}
+
+
+.header-location1:hover {
+  color: #ffcf4a;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.header-location2 {
+  position: absolute;
+  color: #f52b86;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 40px;
+  left: 100px;
+}
+
+.header-location2:hover {
+  color: #ffcf4a;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.header-location3 {
+  position: absolute;
+  color: #f52b86;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 40px;
+  left: 190px;
+}
+
+.header-location3:hover {
+  color: #ffcf4a;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+
+.header-location4 {
+  position: absolute;
+  color: #f52b86;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 40px;
+  left: 290px;
+ ;
+}
+
+.header-location4:hover {
+  color: #ffcf4a;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+
+button {
+  position:fixed;
+  cursor: pointer;
+  background-color: #f52b86;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  color: hsl(0, 0%, 100%);
+  top: 600px;
+  left: 5%;
+  margin-right: 40px;
+
+}
+
+button:hover {
+  border:#ffcf4a solid;
+}
+
+.lion {
+  position: absolute;
+  width: 55%;
+  margin-top: 100px;
+  position: relative;
+}
+
+.woman {
+  position: absolute;
+  width: 75%;
+  margin-left: auto;
+  right:  0px;
+  bottom: 10px;
+  background-image: url('sua-imagem.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; /* Faz a imagem cobrir o espaço */
+  background-position: bottom center; /* Alinha na parte inferior e centraliza */
+}
+
+
+
+
+.agency {
+  position: absolute;
+  width: 60%;
+  bottom: 300px;
+  left: 80px;
+  flex-direction: column;   /* Muda de linha para coluna */
+  align-items: center;      /* Centraliza as imagens na horizontal */
+  gap: 20px;                /* Cria um espaço entre as imagens */
+}
+
+
 
 }

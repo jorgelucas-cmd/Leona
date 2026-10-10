@@ -4,6 +4,7 @@ const servicos = document.querySelector('#servicos')
 const funcionamento = document.querySelector('#funcionamento')
 const paginageral = document.querySelector('.start-image')
 const fundo = document.querySelector('.fundo')
+const botao = document.querySelector('.clickdaagencia')
 
 function menuInicio() {
     fundo.style.backgroundImage = "url('./img/comeia.jpg')";
@@ -45,6 +46,7 @@ function menuRegras() {
     <img class="regras" src="./img/regras.live.png" all="Regras">
     <img class="suporte" src="./img/precisa.de.ajuda.png" all="Regras">
     </div>`
+
 
 
 }
