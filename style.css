@@ -67,6 +67,47 @@
     
 } */
 
+.suporte {
+  position: absolute;
+  width: 53%;
+  top: 140px;
+  left: 23%;
+  border-radius: 10px;
+  
+}
+
+.suporte:hover {
+  border:#ffcf4a solid;
+
+}
+
+.regras {
+  position: absolute;
+  width: 20%;
+  top: 140px;
+  left: 2%;
+  border-radius: 10px;
+}
+
+.regras:hover {
+  border:#ffcf4a solid;
+
+}
+
+.gold-quem {
+  position: absolute;
+  width: 40%;
+  top: 140px;
+  left: 2%;
+  border-radius: 10px;
+
+}
+
+.gold-quem:hover {
+  border:#ffcf4a solid;
+
+}
+
 .ganhos {
   position: absolute;
   width: 18%;
@@ -76,7 +117,20 @@
 
 
 }
+
 .ganhos:hover{
+  border:#ffcf4a solid;
+}
+
+.inforblu {
+  position: absolute;
+  width: 18%;
+  top: 140px;
+  left: 62%;
+  border-radius: 10px;
+}
+
+.inforblu:hover{
   border:#ffcf4a solid;
 }
 
@@ -86,6 +140,7 @@
   top: 140px;
   border:#51ecf2 solid;
   border-radius: 30px;
+  left: 10px;
   
 }
 
