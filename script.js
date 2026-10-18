@@ -10,9 +10,9 @@ function menuInicio() {
     fundo.style.backgroundImage = "url('./img/comeia.jpg')";
    paginageral.innerHTML = `
     <div class="start-image">
-    <img class="lion" src="img/logo-leoa.png" alt="Imagem 1">
-    <img class="agency" src="img/agencia-leoa.png" alt="Imagem 3">
+    <img class="lion" src="img/logo-leoa.png" alt="Imagem 1"> 
     <img class="woman" src="img/moça-leoa.png" alt="Imagem 2">
+    <img class="agency" src="img/agencia-leoa.png" alt="Imagem 3">
     </div>
     `
 }
